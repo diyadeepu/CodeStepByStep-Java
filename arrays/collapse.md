@@ -5,23 +5,25 @@ If the list stores an odd number of elements, the final element is not collapsed
 
 ### Solution
  ```sql
-public static int[] collapse(int [] array){
+public static int[] collapse(int [] array) {
     int [] list;
-    if (array.length == 1){return array;}
+    if (array.length == 1){
+        return array;
+    }
     if (array.length % 2 != 0){
-        list = new int [array.length/2 + 1];
+        list = new int [array.length / 2 + 1];
     }
     else{
-        list = new int [array.length/2];
+        list = new int [array.length / 2];
     }
     int count = 0;
-    for (int i = 0; i+1< array.length; i = i+2){
+    for (int i = 0; i + 1 < array.length; i = i + 2) {
         if (count < array.length)
-        list[count] = array[i]+array[i+1];
+        list[count] = array[i] + array[i + 1];
         count++;
     }
     if (array.length % 2 !=0){
-       list[list.length -1] = array[array.length-1];
+       list[list.length - 1] = array[array.length - 1];
     }
     return list;
 }
