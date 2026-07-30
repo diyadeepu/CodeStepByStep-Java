@@ -22,7 +22,7 @@ public static int[] collapse(int [] array) {
         list[count] = array[i] + array[i + 1];
         count++;
     }
-    if (array.length % 2 !=0){
+    if (array.length % 2 != 0){
        list[list.length - 1] = array[array.length - 1];
     }
     return list;
