@@ -32,7 +32,7 @@ public static void collapsePairs (int [] array)
    }
    else 
    {
-    array [i+1] = sum;
+    array [i + 1] = sum;
     array [i] = 0;
    }
   }
@@ -50,7 +50,7 @@ public static void collapsePairs (int [] array)
    }
    else 
    {
-    array [i+1] = sum;
+    array [i + 1] = sum;
     array [i] = 0;
    }
   }
