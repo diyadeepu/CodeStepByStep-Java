@@ -4,6 +4,7 @@ Write a method named computeAverage that computes and returns the mean of all el
 
 Constraints: You may assume that the array contains at least one element. Your method should not modify the elements of the array.
 
+### Solution
 ```sql
 public static double computeAverage(int [] arr)
 {
