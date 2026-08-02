@@ -4,7 +4,7 @@ The following program contains 11 errors. Find them all and correct the code so 
 
 ### Solution
 
-The following code contains the corrected code below.
+The following code below is the corrected version, not the original version of code provided in the problem with errors.
 
 ```sql
 public class Tricky{
