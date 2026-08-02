@@ -5,4 +5,5 @@ Suppose you have an int variable called number. What Java expression produces th
 ### Solution
 
 **10s place:** (number%100)/10
+
 **100s place:** (number%1000)/100
